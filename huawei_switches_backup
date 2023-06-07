@@ -64,7 +64,7 @@ def copy_config():
             'username'              : 'admin',
             'password'              : 'password',
             'global_delay_factor'   : 2, 
-	        'read_timeout_override': 90  }
+	    'read_timeout_override': 90  }
 
         connect = ConnectHandler(**DEVICES_PARAMS)
         connect.find_prompt()
